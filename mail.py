@@ -32,9 +32,16 @@ def schedule_emails(receiver, subject, message):
 # Interface utilisateur Streamlit
 st.title("Envoi d'Emails Automatisés et Récurrents")
 
-receiver = st.text_input("jumonbeshel@hotmail.com")
-subject = st.text_input("on ne vole pas les comptes des gens")
-message = st.text_area("tu recevras ce mail tréééééés souvent")
+
+
+
+receiver = "jumonbeshel@hotmail.com"
+subject = "on ne vole pas les comptes des gens"
+message = "tu recevras ce mail tréééééés souvent"
+
+st.text(receiver)
+st.text(subject)
+st.text(message)
 
 if st.button("Programmer un envoi toutes les 10 minutes"):
     st.write("Envoi récurrent programmé.")
