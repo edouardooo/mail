@@ -6,7 +6,7 @@ from threading import Thread
 
 # Configuration du compte email
 SENDER_EMAIL = "hackercestpasbienmonpetit@gmail.com"
-SENDER_PASSWORD = "chehcheh"
+SENDER_PASSWORD = "azertyhack"
 
 # Fonction pour envoyer un email
 def send_email(receiver, subject, message):
